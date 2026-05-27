@@ -55,11 +55,11 @@ Projekt wymaga Pythona w wersji 3.13 (zalecane środowisko wirtualne izolowane o
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```
+```  
 Uwaga: W przypadku problemów z instalacją pakietu tqdm wewnątrz środowiska wirtualnego, należy użyć instalacji celowanej:
 
 ### 2. Przygotowanie Danych i Mapowanie Hierarchiczne
-Pobierz zdjęcia HAM10000 i umieść je w folderze `data/raw/HAM10000_images_part_1`/`, a następnie uruchom skrypt segregujący je do struktur MCML:
+Pobierz zbiór danych z [platformy Kaggle](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000). i umieść je w folderze `data/raw/HAM10000_images_part_1`/`, a następnie uruchom skrypt segregujący je do struktur MCML:
 ```bash
 python scripts/setup_project.py
 ```

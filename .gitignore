@@ -1,0 +1,17 @@
+# Środowisko wirtualne
+.venv/
+venv/
+__pycache__/
+
+# Dane (ignorujemy całe foldery z obrazami)
+data/raw/
+data/processed/
+
+# Zapisane wagi modelu
+*.pth
+*.h5
+*.pt
+models/
+
+# Pliki systemowe
+.DS_Store
